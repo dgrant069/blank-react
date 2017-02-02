@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
-import Header from './widgets/header/header'
-import Footer from './widgets/footer/footer'
-
-let test = fetch("./data.json").then(function(response) {
-    return response.clone().json().catch(function() {
-        return response.text();
-    });
-});
+import Header from './widgets/header/header';
+import Footer from './widgets/footer/footer';
 
 const Main = ({children}) => {
     return (
