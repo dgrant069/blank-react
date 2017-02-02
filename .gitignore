@@ -9,6 +9,10 @@ coverage
 # production
 build
 
+# dev
+public
+.idea
+
 # misc
 .DS_Store
 .env
